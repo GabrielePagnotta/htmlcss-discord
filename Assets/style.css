@@ -6,7 +6,6 @@
 
 .header{
     width:100%;
-    height:50px;
     
 }
 
@@ -49,8 +48,8 @@ height:50px;
 
 .title{
     width:50%;
-    height: 500px;
-    background-color: yellow;
+    height: 400px;
+    /* background-color: yellow; */
     margin-left:25%;
     margin-right:25%;
     
@@ -58,10 +57,10 @@ height:50px;
     
 .container{
     width:100%;
-    height:500px;
-    background-color:gray;
+    height:auto;
+    /* background-color:gray; */
     background-image:url(img/jumbo.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     
 
@@ -193,19 +192,82 @@ margin-left:10px;
         display: inline-block;
         padding:15px;
         font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        
 
     }
 
     .button{
         background-color:white;
-        width:40%;
+        width: 30%;
         height:auto;
         color:black;
         border-radius: 15px 15px 15px;
         font-size: 15px;
         padding:10px;
         margin-top:5px;
-        fonr-family:Helvetica
+        font-family:Helvetica;
+        cursor: pointer;
+        text-align: center;
         
 
     }
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:white;
+    padding-top:45px;
+}
+
+.sub-title-style{
+    font-size: 20px;
+    text-align: center;
+}
+
+.sub{
+    padding:20px;
+    margin-left: 60px;
+    border-radius: 25px 25px 25px;
+    cursor:pointer;
+    
+}
+
+.ent{
+    padding-right: 15px;
+}
+
+
+.button-2{
+    background-color:white;
+        width: 30%;
+        height:auto;
+        color:black;
+        border-radius: 25px 25px 25px;
+        font-size: 15px;
+        padding:10px;
+        margin-top:5px;
+        font-family:Helvetica;
+        cursor: pointer;
+        text-align: center;
+}
+
+.button-3{
+    width: 40%;
+        height:auto;
+        color:white;
+        border-radius: 25px 25px 25px;
+        font-size: 15px;
+        padding:15px;
+        margin-top:5px;
+        font-family:Helvetica;
+        cursor: pointer;
+        text-align: center;
+        background-color: black;
+        margin-left: 20px;
+        display: inline;
+
+}
+
+
