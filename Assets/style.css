@@ -169,7 +169,7 @@ margin-left:10px;
     .footer-container{
         width:80%;
         height:500px;
-        background-color: wheat;
+        /* background-color: wheat; */
         flex-direction: row;
         justify-content:space-between;
         margin-left:10%;
@@ -179,9 +179,11 @@ margin-left:10px;
     }
 
     .box-footer{
-        width:10%;
+        width:20%;
         height:100%;
-        background-color: gray;
+        /* background-color: gray; */
+        line-height:30px;
+        font-family: Arial, Helvetica, sans-serif;
        
     }
 
@@ -193,7 +195,7 @@ margin-left:10px;
     .end-page{
         width:80%;
         height:150px;
-        background-color:rgb(19, 161, 186);
+        /* background-color:rgb(19, 161, 186); */
         margin-left:10%;
         margin-right:10%;
         
@@ -202,7 +204,7 @@ margin-left:10px;
     .end-page-box{
         width:100%;
         height:50px;
-        background-color:aquamarine;
+        /* background-color:aquamarine; */
         padding-top:5px;
         justify-content:space-between;
         
@@ -211,7 +213,7 @@ margin-left:10px;
     .end-footer-box{
         width: 20%;
         height:50px;
-        background-color: blue;
+        /* background-color: blue; */
     }
 
     img{
@@ -430,7 +432,8 @@ width:50%;
     line-height: 45px;
     text-align: center;
     font-size: 1.5rem;
-    margin-top:80px;
+    
+    
 }
 
 .scarica{
@@ -448,4 +451,69 @@ width:50%;
         cursor: pointer;
         text-align: center;
         margin-left:430px;
+}
+
+.stars{
+    width:50%;
+    margin-left:260px;
+    margin-top:70px;
+    padding-bottom:0px;
+    
+}
+
+.title-first-column{
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5c77d7;
+    font-weight: bold;
+    margin-top:70px;
+}
+
+.subtitle-first-box{
+    font-family: helvetica;
+    margin-top:10px;
+    display:inline;
+    color:white;
+    
+}
+
+.flag{
+    width:10%;
+    margin-top:20px;
+    display: inline;
+    
+    
+    
+}
+
+footer{
+background-color:#23272A;
+}
+
+.list-title-column{
+    color:#5c77d7;
+    margin-top:70px;
+    
+}
+
+li{
+    color:white;
+    text-align: center;
+}
+
+hr{
+    border:0.5px solid#5c77d7;
+}
+
+.btn{
+    background-color:#5c77d7;
+    width: 30%;
+    height:auto;
+    color:white;
+    border-radius: 15px 15px 15px;
+    font-size: 15px;
+    padding:10px;
+    margin-top:5px;
+    font-family:Helvetica;
+    cursor: pointer;
 }
