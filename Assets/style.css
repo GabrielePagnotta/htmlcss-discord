@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.header{
+    width:100%;
+    height:50px;
+    
+}
+
+.flex{
+display:flex;
+}
+
+.nav-bar{
+margin-left:10%;
+margin-right:10%;
+background-color:blue;
+width:100%;
+height:50px;
+}
+
+.flex-header{
+    justify-content: center;
+}
+
+.header-box{
+    width:15%;
+    height:50px;
+    background-color: greenyellow;
+    
+}
+
+.flex-nav{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+}
+
+.change{
+    flex-basis:500px;
+}
+
+
+.title{
+    width:50%;
+    height: 500px;
+    background-color: yellow;
+    margin-left:25%;
+    margin-right:25%;
+    
+}
+    
+.container{
+    width:100%;
+    height:500px;
+    background-color:gray;
+    
+
+}
+
+.middle-page{
+    width:80%;
+    height:500px;
+    background-color:greenyellow;
+    padding:10px;
+    margin-left: 10%;
+    margin-right:10%;
+    
+}
+
+.mid-container{
+    width:55%;
+    height:500px;
+    background-color: green;
+    
+
+}
+
+.second-mid-container{
+width:45%;
+height:500px;
+background-color: green;
+margin-left:10px;
+}
+
+.mid-container-two{
+    width:45%;
+    height:500px;
+    background-color: green;
+    
+
+}
+
+.second-mid-container-two{
+    width:55%;
+    height:500px;
+    background-color: green;
+    margin-left:10px;
+    }
+
+    .middle-bottom-page{
+        width:100%;
+        height:40%;
+        background-color: red;
+        flex-direction:column;
+        align-items:center;
+        margin-top:10px;
+        margin-bottom:10px;
+        
+        
+    }
+
+    .middle-bottom-box{
+        width:80%;
+        height:300px;
+        background-color:darkred;
+        margin-top: 10px;
+        margin-bottom:10px;
+       
+
+    }
+
+    .grow{
+        flex-basis:500px;
+    }
+
+    .footer-container{
+        width:80%;
+        height:500px;
+        background-color: wheat;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-left:10%;
+        margin-right:10%;
+        
+
+        
+    
+
+        
+    }
+
+    .box-footer{
+        width:10%;
+        height:100%;
+        background-color: gray;
+       
+    }
+
+    .grow-column{
+        flex-basis:20%;
+        
+    }
+
+    .end-page{
+        width:80%;
+        height:150px;
+        background-color:rgb(19, 161, 186);
+        margin-left:10%;
+        margin-right:10%;
+        
+    }
+
+    .end-page-box{
+        width:100%;
+        height:50px;
+        background-color:aquamarine;
+        padding-top:5px;
+        justify-content:space-between;
+        
+    }
+
+    .end-footer-box{
+        width: 20%;
+        height:50px;
+        background-color: blue;
+    }
